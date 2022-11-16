@@ -49,5 +49,6 @@ h1{
     height: 100vh;
     background: linear-gradient(50deg,yellow, orange,red,blue,purple,rgb(187, 41, 41),rgb(16, 26, 122));
     background-size: 500% 500%;
+    opacity: 0.8;
 
 }
