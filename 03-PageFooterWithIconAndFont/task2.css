@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.umumisehife{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(210, 220, 230);
+    letter-spacing: 5px;
+    font-family: sans-serif; 
+    padding: 50px;  
+   
+}
+i{
+    font-size: xx-large;
+    color: rgb(15, 124, 20);
+    margin: 15px auto;
+    text-indent: 40px;
+}
+  
+.yazi{
+   text-indent: 40px;
+}
+.span1{
+    font-size: x-small;
+    color: rgb(15, 124, 20);
+}
+.line{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(5, 4, 5);
+    margin: 0 auto;
+}
+.card{
+    width: 400px;
+    height: 265px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-left: 50%;
+    color: green;
+    border-radius: 5%;
+
+    padding: 10px;
+    box-shadow:20px 20px 50px 10px grey;
+   
+}
+button{
+    background-color: rgb(54, 146, 23);
+    color: aliceblue;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    }
+
+input{
+    background-color: rgb(177, 194, 171);
+    color: rgb(57, 63, 68);
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    text-indent: 20px;
+    letter-spacing: 10px;
+}
+.footer{
+    text-align: center;
+}
+.text1{
+color: blanchedalmond;
+}
+.text{
+    color: blanchedalmond;
+}
+.text3{
+    color: green;
+}
+
+.button1:hover{
+    color: aliceblue;
+    background-color: rgb(22, 104, 19);
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+.yeniicon{
+    color: azure;
+}
+.yeniicon:hover{
+    color: blueviolet;
+    
+}
