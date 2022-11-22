@@ -1,0 +1,237 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      
+  }
+  
+
+  
+
+
+
+
+  
+  .box1 {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-right: 1%;
+      
+  }
+  
+  .box1home {
+      display: flex;
+      height: 50%;
+      gap: 2%;
+  }
+  
+  .home {
+      background-color: rgb(74, 92, 255);
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+  }
+  .about {
+      background-color: rgb(74, 92, 255);
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  }
+  
+ 
+
+  
+
+
+
+
+
+  
+  .box1offers {
+      width: 100%;
+      display: flex;
+      height: 50%;
+      gap: 2%;
+      margin-top: 2%;
+  }
+  .pricing {
+      background-color: rgb(74, 92, 255);
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  } 
+  .even{
+    
+        background-color: rgb(74, 92, 255);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+
+  }
+  
+  .customers {
+      background-color: rgb(74, 92, 255);
+      width: 25%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+  }
+  .offers {
+      background-color: rgb(74, 92, 255);
+      width: 25%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  }
+  .contact {
+      background-color: rgb(74, 92, 255);
+      width: 25%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+  }
+.menu{
+    background-color: rgb(74, 92, 255);
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media only screen and (max-width:1200px) {
+    .home{
+        background-color: red;
+    }
+    .about{
+        background-color: red;
+    }
+    .pricing{
+        background-color: red;
+    }
+    .customers{
+        background-color: red;
+    }
+    .offers{
+        background-color: red;
+    }
+    .contact{
+        background-color: red;
+    }
+    .projects{
+        background-color: red;
+    }
+    .blog{
+        background-color: red;
+    }
+    .gallery{
+        background-color: red;
+    }
+    .portfolio{
+        background-color: red;
+    }
+    .events{
+        background-color: red;
+    }
+    .menu{
+        background-color: red;
+    }
+      }
+    
+    
+      @media only screen and (max-width:992px) {
+        .home{
+            background-color: rgb(36, 112, 29);
+        }
+        .about{
+            background-color: rgb(36, 112, 29);
+        }
+        .pricing{
+            background-color: rgb(36, 112, 29);
+        }
+        .customers{
+            background-color: rgb(36, 112, 29);
+        }
+        .offers{
+            background-color: rgb(36, 112, 29);
+        }
+        .contact{
+            background-color: rgb(36, 112, 29);
+        }
+        .projects{
+            background-color: rgb(36, 112, 29);
+        }
+        .blog{
+            background-color: rgb(36, 112, 29);
+        }
+        .gallery{
+            background-color: rgb(36, 112, 29);
+        }
+        .portfolio{
+            background-color: rgb(36, 112, 29);
+        }
+        .events{
+            background-color: rgb(36, 112, 29);
+        }
+        .menu{
+            background-color: rgb(36, 112 ,29);
+        }
+          }
+    
+        @media only screen and (max-width:768px) {
+        .home{
+            background-color: yellow;
+        }
+        .about{
+            background-color: yellow;
+        }
+        .pricing{
+            background-color: yellow;
+        }
+        .customers{
+            background-color: yellow;
+        }
+        .offers{
+            background-color: yellow;
+        }
+        .contact{
+            background-color: yellow;
+        }
+        .projects{
+            background-color: yellow;
+        }
+        .blog{
+            background-color: yellow;
+        }
+        .gallery{
+            background-color: yellow;
+        }
+        .portfolio{
+            background-color: yellow;
+        }
+        .events{
+            background-color: yellow;
+        }
+        .menu{
+            background-color: yellow;
+        }
+          }

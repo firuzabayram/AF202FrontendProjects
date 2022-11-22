@@ -1,0 +1,281 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    color: white;
+  }
+  
+
+  
+
+
+
+
+  
+  .box1 {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-right: 1%;
+  }
+  
+  .box1home {
+      display: flex;
+      height: 50%;
+      gap: 2%;
+  }
+  
+  .home {
+      background-color: rgb(74, 74, 233);
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3px;  
+  }
+  .about {
+      background-color: rgb(74, 74, 233);
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3px;
+  }
+  
+ 
+
+
+
+
+
+
+
+  
+  .box1offers {
+      width: 100%;
+      display: flex;
+      height: 20%;
+      gap: 2%;
+      margin-top: 2%;
+  }
+  .pricing {
+      background-color: rgb(74, 74, 233);
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3px;
+  } 
+  
+  .customers {
+      background-color: rgb(74, 74, 233);
+      width: 33%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3px;
+  }
+  .offers {
+      background-color: rgb(74, 74, 233);
+      width: 33%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3px;
+  }
+  .contact {
+      background-color: rgb(74, 74, 233);
+      width: 33%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3px;
+  }
+
+  
+ 
+
+
+
+
+
+
+  
+  .box2pro {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .box2blog {
+      width: 100%;
+      display: flex;
+      height: 25%;
+      gap: 2%;
+  }
+  
+  .projects {
+      background-color: rgb(74, 74, 233);
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3px;
+      margin-bottom: 2%;
+  
+  } 
+  
+  .blog {
+      background-color: rgb(74, 74, 233);
+      width: 33%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3px;
+  }
+  .gallery {
+      background-color: rgb(74, 74, 233);
+      width: 33%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3px;
+  }
+  .portfolio {
+      background-color: rgb(74, 74, 233);
+      width: 33%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3px;
+  }
+  
+ 
+  
+  .boxeven {
+      width: 100%;
+      display: flex;
+      height: 42%;
+      gap: 2%;
+      margin-top: 2%;
+  }
+  .events {
+      background-color: rgb(74, 74, 233);
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3px;  
+  }
+
+  @media only screen and (max-width:1200px) {
+.home{
+    background-color: red;
+}
+.about{
+    background-color: red;
+}
+.pricing{
+    background-color: red;
+}
+.customers{
+    background-color: red;
+}
+.offers{
+    background-color: red;
+}
+.contact{
+    background-color: red;
+}
+.projects{
+    background-color: red;
+}
+.blog{
+    background-color: red;
+}
+.gallery{
+    background-color: red;
+}
+.portfolio{
+    background-color: red;
+}
+.events{
+    background-color: red;
+}
+  }
+
+
+  @media only screen and (max-width:992px) {
+.home{
+        background-color: rgb(36, 112, 29);
+    }
+.about{
+        background-color: rgb(36, 112, 29);
+    }
+.pricing{
+        background-color: rgb(36, 112, 29);
+    }
+.customers{
+        background-color: rgb(36, 112, 29);
+    }
+.offers{
+        background-color: rgb(36, 112, 29);
+    }
+.contact{
+        background-color: rgb(36, 112, 29);
+    }
+.projects{
+        background-color: rgb(36, 112, 29);
+    }
+.blog{
+        background-color: rgb(36, 112, 29);
+    }
+.gallery{
+        background-color: rgb(36, 112, 29);
+    }
+.portfolio{
+        background-color: rgb(36, 112, 29);
+    }
+.events{
+        background-color: rgb(36, 112, 29);
+    }
+      }
+
+      
+    @media only screen and (max-width:768px) {
+    .home{
+        background-color: yellow;
+    }
+    .about{
+        background-color: yellow;
+    }
+    .pricing{
+        background-color: yellow;
+    }
+    .customers{
+        background-color: yellow;
+    }
+    .offers{
+        background-color: yellow;
+    }
+    .contact{
+        background-color: yellow;
+    }
+    .projects{
+        background-color: yellow;
+    }
+    .blog{
+        background-color: yellow;
+    }
+    .gallery{
+        background-color: yellow;
+    }
+    .portfolio{
+        background-color: yellow;
+    }
+    .events{
+        background-color: yellow;
+    }
+      }
