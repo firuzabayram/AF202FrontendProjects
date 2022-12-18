@@ -3,11 +3,6 @@ const taskInput = document.querySelector(".task-input input"),
   clearAll = document.querySelector(".clear-btn"),
   taskBox = document.querySelector(".task-box");
   
-
-  function myFunction() {
-    alert("hecne elave olunmayib :)");
-  }
-
 let editId,
   isEditTask = false,
   todos = JSON.parse(localStorage.getItem("todo-list"));
